@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url("banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .navbar{
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        border-bottom: 1px solid rgb(124, 124, 124);
+        z-index: 999;
+        display: flex;
+        
+    }
+    .div_contents{
+        background-color: aqua;
+        width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .links{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        color: white;
+    }
+    .linkss{
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+    .contact{
+        background-color: #2760A2;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;        
+    }
+    .all_ban{
+        background-color: transparent;
+    }
+    .name{
+        color: aliceblue;
+        margin-top: 120px;
+        margin-left: 100px;
+        margin-right: 600px;
+        font-size: 15vh;
+        background-color: transparent;
+        display: block;
+
+    }
+    .name_down{
+        color: aliceblue;
+        margin-left: 100px;
+        margin-right: 600px;
+        font-size: 5vh;
+        background-color: transparent;
+    }
+    .explore{
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .explore_button{
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 0.5px solid rgb(124, 124, 124);
+        padding: 13px;
+        border-radius: 3px;
+    }
+
+    .banner_content{
+        margin: 30px;
+        background-color: #2760A2;
+    }
+
+    .galback{
+        width: 100%;
+        height: 100vh;
+        background-image: url("backgal.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; /* Cover the entire container */
+        background-position: center;
+        box-shadow: 0px -10px 100px;
+        border-top: 1px solid rgb(124, 124, 124);
+        filter: brightness(60%);
+    }
+    .aboutback{
+        width: 100%;
+        height: 100vh;
+        background-image: url("backabout.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; /* Cover the entire container */
+        background-position: center;
+        filter: brightness(60%);
+    }
