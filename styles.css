@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        scroll-behavior: smooth;
+        
+    }
+@media only screen and (min-width: 1050px){
+
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    body{
+        background-color: black;
+        
+    }
+    
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url("banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed;
+        animation: fadeIn 1s ease forwards;
+    }
+    
+    .navbar{
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+        z-index: 999;
+        display: flex;
+        
+    }
+    .div_contents{
+        background-color: aqua;
+        width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .links{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        color: white;
+    }
+    .linkss{
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+    
+    .contact{
+        background-color: #2760A2;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;        
+    }
+    .all_ban{
+        background-color: transparent;
+        width: 100vw;
+    }
+    .name{
+        color: aliceblue;
+        margin-top: 120px;
+        margin-left: 100px;
+        margin-right: 500px;
+        font-size: 8vw;
+        background-color: transparent;
+        display: block;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+
+
+    }
+    .name_down{
+        color: aliceblue;
+        margin-left: 100px;
+        margin-right: 600px;
+        font-size: 5vh;
+        background-color: transparent;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .explore{
+        color: aliceblue;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .explore_button{
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 0.5px solid rgb(124, 124, 124);
+        padding: 13px;
+        border-radius: 3px;
+    }
+
+    .banner_content{
+        margin: 30px;
+        background-color: #2760A2;
+    }
+
+
+    .backimage{
+        width: 100%;
+        background: url("pp.jpg");
+        filter: opacity(20%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        
+
+    }
+
+    .main-gal{
+        box-shadow: -200px 0px 5000px black;
+    }
+    
+   
+    .allpics{
+        height: 500px;
+        width: 1000px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        margin: 10px 0px 30px 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px black;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .pics_sec{
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        padding-bottom: 100px;
+        
+    }
+    .gallery_header{
+        color: white;
+        margin: -90vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+    .aboutback{
+        width: 100%;
+        height: 100vh;
+        background-image: url("backabout.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        
+    }
+    .about_box{
+        height: 500px;
+        width: 1000px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        border: 0.1px solid rgb(52, 52, 52);
+        border-radius: 8px;
+        margin-top: 100px;
+
+    }
+
+    .div-line{
+        height: 11px;
+        width: 150px;
+        margin-top: 5px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+      }
+
+
+    .gallery_headerr{
+        color: white;
+        margin: -90vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+        
+    .boxx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainn{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+
+    }
+    
+    .about_header{
+        color: white;
+        margin: -100vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+    .about-main{
+        height: max-content;
+        width: 1000px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 10px 0px 100px 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px black;
+        display: flex;
+        justify-content: center;
+    }
+    .profile-pic{
+        width: 40%;
+        height: 100%;   
+        display: flex;
+        justify-content: center;
+    }
+    .text-about{
+        width: 60%;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .pic{
+        background-image: url("dp.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        margin-top: 75px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px black;
+        border: 5px solid rgba(255, 255, 255, 1);
+        
+    }
+
+    .text{
+        margin: 20px 60px 0px 0px;
+        color: white;
+        font-size: 1.3rem;
+    }
+    .text2{
+        margin: 20px 60px 0px 0px;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .name-details{
+        text-align: center;
+        margin-top: 15px;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+    }
+
+    .artist{
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    .art-image{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .art{
+        background-image: url("art.jpg");
+        background-repeat: no-repeat;
+        background-size: content; 
+        background-position: center;
+        width: 90%;
+        height: 90%;
+    }
+    .art-about{
+        width: 60%;
+        height: 70%;
+        margin-top: 60px;
+    }
+    .art-name{
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    .detail-container{
+        margin-top: 60px;
+    }
+    .art-details{
+        color: white;
+        font-size: 1rem;
+        margin-top: 20px;
+
+    }
+
+
+    .contact-back{
+        background-image: url("contactback.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        filter: brightness(50%);
+        position: sticky;
+        top: 0 ;
+        z-index: -1;
+    }
+    .contact-header{
+        color: white;
+        margin: -90vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+
+    .all-contact{
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .contact-box{
+        height: 500px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+    .name-box{
+        display: flex;
+        justify-content: center;
+    }
+    .fname{
+        width: 90%;
+        height: 50px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        color: white;
+        padding: 15px;
+        font-size: 1rem;
+        
+
+    }
+    .submit-button{
+        width: 94%;
+        height: 100px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+        color: white;
+        font-size: 1.5rem;
+        
+
+    }
+    .message{
+        width: 90%;
+        height: 150px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 1rem;
+        resize: none;
+
+    }
+    .fname-box{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-box{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: white;
+        
+    }
+    .social-box{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #2760A2;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-box-big{
+        width: 270px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: #2760A2;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+    }
+
+    .main-social{
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .social{
+        width: 840px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .insta-logo{
+        background-image: url("insta-logo.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+    .yt-logo{
+        background-image: url("yt-icon.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+    .fb-logo{
+        background-image: url("fb-logo.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+    
+}
+
+
+
+    /* mobile */
+
+
+@media only screen and (max-width: 1050px){
+
+
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    body{
+        background-color: black;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url("banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .navbar{
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+        z-index: 999;
+        display: flex;
+        
+    }
+    .div_contents{
+        background-color: aqua;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .links{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        color: white;
+    }
+    .linkss{
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+    .hide{
+        display: none;
+        
+    }
+    
+    
+    .contact{
+        background-color: #2760A2;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .banner{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;        
+    }
+    .all_ban{
+        background-color: transparent;
+    }
+    .name{
+        color: aliceblue;
+        margin-top: 120px;
+        margin-left: 20px;
+        width: 90vw;
+        font-size: 7vh;
+        background-color: transparent;
+        display: block;
+    }
+        .name-container{
+            width: 80vw;
+        }
+    
+    .name_down{
+        color: aliceblue;
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 2vh;
+        background-color: transparent;
+    }
+    .explore{
+        color: aliceblue;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .explore_button{
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 0.5px solid rgb(124, 124, 124);
+        padding: 13px;
+        border-radius: 3px;
+    }
+
+    .banner_content{
+        margin: 30px;
+        background-color: #2760A2;
+    }
+
+
+    .backimage{
+        width: 100%;
+        background: url("pp.jpg");
+        filter: opacity(20%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        
+
+    }
+
+    .main-gal{
+        box-shadow: -200px 0px 5000px black;
+        
+
+    }
+    
+   
+    .allpics{
+        height: max-content;
+        width: 90vw;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        margin: 10px 0px 30px 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px black;
+
+    }
+    
+
+    .pics_sec{
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        padding-bottom: 100px;
+        
+    }
+    .art-image{
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 10%;
+
+        
+    }
+    .art{
+        background-image: url("art.jpg");
+        background-repeat: no-repeat;
+        background-size: content; 
+        background-position: center;
+        width: 316px;
+        height: 470px;
+    }
+    .art-about{
+        height: 70%;
+        padding: 20px;
+    }
+    .art-name{
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    .detail-container{
+        margin-top: 10px;
+    }
+    .art-details{
+        color: white;
+        font-size: 1rem;
+        margin-top: 20px;
+
+    }
+    .headers{
+        color: white;
+        margin: -90vh 0px 30px 20px;
+        font-size: 2rem;
+        width: 80vw;
+    }
+    .aboutback{
+        width: 100%;
+        height: 100vh;
+        background-image: url("backabout.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        
+    }
+    .about_box{
+        height: 500px;
+        width: 1000px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        border: 0.1px solid rgb(52, 52, 52);
+        border-radius: 8px;
+        margin-top: 100px;
+
+    }
+
+    .div-line{
+        height: 11px;
+        width: 100px;
+        margin-top: 5px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+      }
+      
+
+
+    .gallery_headerr{
+        color: white;
+        margin: -90vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+        
+    .boxx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainn{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    
+    .about_header{
+        color: white;
+        margin: -100vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+    .about-main{
+        height: max-content;
+        width: 90vw;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 10px 0px 100px 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .profile-pic{
+        width: 100%;
+        height: 100%;   
+        display: flex;
+        justify-content: center;
+    }
+    .text-about{
+        width: 95%;
+        margin: 10px;
+        font-size: 1rem;
+
+    }
+    .text{
+        margin: 10px 0px 0px 0px;
+        color: white;
+        width: 100%;
+    }
+    .text2{
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+        color: white;
+    }
+
+    .pic{
+        background-image: url("dp.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        margin-top: 60px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px black;
+        border: 5px solid rgba(255, 255, 255, 1);
+        
+    }
+
+    
+
+    .name-details{
+        text-align: center;
+        margin-top: 15px;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+    }
+
+    .artist{
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    
+
+
+    .contact-back{
+        background-image: url("contactback.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        filter: brightness(50%);
+        position: sticky;
+        top: 0 ;
+        z-index: -1;
+    }
+    .contact-header{
+        color: white;
+        margin: -90vh 100px 30px 100px;
+        font-size: 3rem;
+    }
+
+    .all-contact{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 160px;
+        
+    }
+
+    .contact-box{
+        height: 500px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+    .name-box{
+        display: flex;
+        justify-content: center;
+    }
+    .fname{
+        width: 90%;
+        height: 50px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        color: white;
+        padding: 15px;
+        font-size: 1rem;
+        
+
+    }
+    .submit-button{
+        width: 94vw;
+        height: 100px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+        color: white;
+        font-size: 1.5rem;
+        
+
+    }
+    .message{
+        width: 90%;
+        height: 150px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(30px);
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 1rem;
+        resize: none;
+
+    }
+    .fname-box{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-box{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: white;
+        
+    }
+    .social-box{
+        width: 80vw;
+        height: 70px;
+        border-radius: 100px;
+        background-color: #2760A2;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-box-big{
+        width: 80vw;
+        height: 70px;
+        border-radius: 100px;
+        background-color: #2760A2;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+    }
+
+    .main-social{
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .social{
+        width: 100vw;
+        height: max-content;
+        display: grid;
+        justify-items: center; /* Centers grid items horizontally */
+        align-items: center; 
+        gap: 10px;
+        margin-bottom: 30px;
+
+    }
+    
+    .insta-logo{
+        background-image: url("insta-logo.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+    .yt-logo{
+        background-image: url("yt-icon.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+    .fb-logo{
+        background-image: url("fb-logo.png");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        height: 40px;
+        width: 40px;
+    }
+  
+}
+
+.loader{
+    background-image: url("loader.svg.svg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: content; 
+     background-position: center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000000000;
+}
